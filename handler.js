@@ -23,7 +23,7 @@ module.exports = {
         if (seli > global.Intervalmsg) return console.log(new ReferenceError(`Pesan ${Intervalmsg} detik yang lalu diabaikan agar tidak nyepam`))
         
         global.namabot = await this.user.name
-        global.wm = namabot + ' ву ƒσкυѕ ι∂'
+        global.wm = namabot + ' 𝙖𝙝𝙢𝙖𝙙 𝙯𝙖𝙠𝙖𝙧𝙞𝙖'
         //console.log(JSON.stringify(m, null, 4))
         try {
             m = simple.smsg(this, m) || m
